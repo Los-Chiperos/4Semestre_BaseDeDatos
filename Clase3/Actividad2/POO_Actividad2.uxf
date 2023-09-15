@@ -1,0 +1,86 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>440</x><y>0</y><w>110</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>330</y><w>170</w><h>80</h></coordinates><panel_attributes>/VideoJuego/
+--
+/+Play()/
+/+Pause()/
+/+Stop()/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>440</y><w>210</w><h>150</h></coordinates><panel_attributes>Mario Bros.
+
+--
+
+--
+/+Play()/
+/+Pause()/
+/+Stop()/
+/+Saltar()/
+/+Correr()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>460</y><w>210</w><h>150</h></coordinates><panel_attributes>Sonic.
+
+--
+
+--
+/+Play()/
+/+Pause()/
+/+Stop()/
+/+Saltar()/
+/+Correr()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>630</y><w>210</w><h>150</h></coordinates><panel_attributes>Mario 
+
+--
+-_nombre: String
+--
+/+Nombre {get, set }/
+/+Play()/
+/+Pause()/
+/+Stop()/
+/+Saltar()/
+/+Correr()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>630</y><w>210</w><h>150</h></coordinates><panel_attributes>Luigi
+
+--
+-_nombre: String
+--
+/+Nombre {get, set }/
+/+Play()/
+/+Pause()/
+/+Stop()/
+/+Saltar()/
+/+Correr()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>630</y><w>210</w><h>150</h></coordinates><panel_attributes>Sonic
+
+--
+-_nombre: String
+--
+/+Nombre {get, set }/
+/+Play()/
+/+Pause()/
+/+Stop()/
+/+Saltar()/
+/+Correr()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>630</y><w>210</w><h>150</h></coordinates><panel_attributes>Milles
+
+--
+-_nombre: String
+--
+/+Nombre {get, set }/
+/+Play()/
+/+Pause()/
+/+Stop()/
+/+Saltar()/
+/+Correr()/
+/+Volar()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>360</y><w>180</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>370</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;90</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>580</y><w>40</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>20;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>580</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;50</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>600</y><w>80</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;30</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>580</y><w>150</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;50</additional_attributes></element><element><id>UMLNote</id><coordinates><x>700</x><y>330</y><w>220</w><h>220</h></coordinates><panel_attributes>VideoJuego Clase abstract
+Herencia :
+	Mario Bros. Y Sonnic heredan de Video Juego
+	Mario y Luigi Heredan de Mario Bros.
+	Sonic y Miles Heredan de Sonic
+Poliformismo
+	/+Play()/
+	/+Pause()/
+	/+Stop()/
+	/+Saltar()/
+	/+Correr()/
+Encapsulación:
+	atributo _nombre
+	metodo Nombre{get, set}
+	
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
